@@ -32,7 +32,7 @@
                 formData.append(index, $scope.form[index]);
             }
 
-            $http.post('upload.php', formData, {
+            $http.post('/upload.php', formData, {
                 transformRequest: angular.identity,
                 headers: {'Content-Type': undefined}
             });

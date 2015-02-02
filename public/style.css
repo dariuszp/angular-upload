@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-#image {
+#box-image {
     width: 500px;
     height: 500px;
     border: 2px solid #222222;
     margin: 5px;
 }
 
-#preview {
+#box-preview {
     width: 100px;
     height: 100px;
     border: 2px solid #222222;
